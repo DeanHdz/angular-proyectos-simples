@@ -1,0 +1,77 @@
+<!-- Navbar -->
+<nav class="container-fluid bg-pri-l pt-1 pb-1 mt-5 mb-5">
+
+    <div class="bg-pri row pt-1 pb-1">
+
+        <div class="col-5">
+
+            <!-- Vista escritorio-->
+            <div class="h-100 d-none d-lg-flex align-items-center justify-content-around">
+                <a class="nav-link active text-white" href="#somos">SOBRE NOSOTROS</a>
+                <a class="nav-link active text-white" href="#menu">MENÚ</a>
+            </div>
+
+            <!-- Vista móvil-->
+            <div class="d-flex d-lg-none align-items-center justify-content-center navbar">
+
+                <!-- Hamburger menu icon -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation links -->
+                <div class="collapse navbar-collapse d-lg-none" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#somos">SOBRE NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#menu">MENÚ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#direccion">DIRECCIÓN</a>
+                        </li>
+                        <!-- Add more links as needed -->
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-2 d-flex align-items-center justify-content-center">
+            <div class="position-absolute bg-dark rounded-circle p-1">
+                <div class="bg-sec rounded-circle">
+                    <img id="nav-logo" src="../../../assets/images/Logo.png" alt="Logo Restaurante">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-5 d-flex align-items-center justify-content-around">
+
+            <!-- Vista escritorio-->
+            <div class="d-none d-lg-flex">
+                <a class="nav-link active text-white" href="#direccion">DIRECCIÓN</a>
+            </div>
+
+            <!-- CONTACTANOS button (Escritorio) -->
+            <a href="#contacto" class="nav-link">
+                <button type="button"class="btn bg-sec border-dark rounded-pill fw-bold d-none d-md-flex">
+                    <span>CONTACTANOS</span>
+                </button>
+            </a>
+            
+
+            <!-- CONTACTANOS button (movil) -->
+            <a href="#contacto" class="nav-link">
+                <button type="button" class="btn bg-sec border-dark rounded-pill fw-bold d-flex d-md-none ms-auto">
+                    <span class="small">CONTACTANOS</span>
+                </button>
+            </a>
+            
+
+        </div>
+
+    </div>
+
+</nav>
